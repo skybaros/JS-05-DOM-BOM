@@ -15,12 +15,12 @@
   mover.onclick = moveRight;
   movel.onclick = moveLeft
   function moveLeft() {
-    table.style.marginRight +=(100 + 'px').toString();
+    table.style.marginRight = (100 + 'px').toString();
    table.style.margin = 'auto'.toString();
      table.style.marginLeft = 0;
   }
   function moveRight() {
-    table.style.marginLeft +=(100 + 'px').toString();
+    table.style.marginLeft = (100 + 'px').toString();
     table.style.margin = 'auto'.toString();
      table.style.marginRight = 0;  }
   function createTable() {
